@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-body text-gray-800 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-rose-500 to-coral-500 hover:from-rose-600 hover:to-coral-600 text-white font-accent tracking-wider transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-violet-500 to-sky-500 hover:from-violet-600 hover:to-sky-600 text-white font-accent tracking-wider transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .section-title {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-violet-600 via-rose-500 to-coral-500 bg-clip-text text-transparent;
+  }
+  
+  .section-subtitle {
+    @apply font-body text-lg text-gray-600 max-w-2xl mx-auto;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-rose-500 via-violet-500 to-sky-500 bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 hover:shadow-2xl hover:-translate-y-2;
+  }
+
+  .glass-effect {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  .animation-delay-700 {
+    animation-delay: 700ms;
+  }
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+
+  .bg-gradient-animated {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-rose-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-rose-300 to-violet-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply from-rose-400 to-violet-400;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-rose-200 text-rose-900;
+}
+
+/* Smooth image loading */
+img {
+  @apply transition-opacity duration-300;
+}
