@@ -56,6 +56,8 @@ const ContactPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Get in{' '}
             <span className="bg-gradient-to-r from-violet-300 via-rose-300 to-coral-300 bg-clip-text text-transparent">
@@ -68,6 +70,8 @@ const ContactPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             💌 Have a question, suggestion, or just want to say hello? We&#39;d love to hear from you!
           </Typography>
@@ -137,12 +141,16 @@ const ContactPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <CardBody 
                   className="p-8"
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <div className={`w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center text-white ${
                     index === 0 ? 'bg-gradient-to-br from-rose-400 to-rose-600' :
@@ -161,6 +169,8 @@ const ContactPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     {contact.title}
                   </Typography>
@@ -169,6 +179,8 @@ const ContactPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     {contact.info}
                   </Typography>
@@ -177,6 +189,8 @@ const ContactPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     {contact.subInfo}
                   </Typography>
@@ -203,6 +217,8 @@ const ContactPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="bg-gradient-to-r from-sky-500 via-violet-500 to-rose-500 bg-clip-text text-transparent">
                   📝 Send Us a Message
@@ -213,6 +229,8 @@ const ContactPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Fill out the form below and we&#39;ll get back to you as soon as possible.
               </Typography>
@@ -226,6 +244,8 @@ const ContactPage: React.FC = () => {
                     crossOrigin=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   />
                   <Input
                     label="Last Name"
@@ -234,6 +254,8 @@ const ContactPage: React.FC = () => {
                     crossOrigin=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   />
                 </div>
                 <Input
@@ -244,6 +266,8 @@ const ContactPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
                 <Input
                   label="Subject"
@@ -252,6 +276,8 @@ const ContactPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
                 <Textarea
                   label="Your Message"
@@ -260,6 +286,8 @@ const ContactPage: React.FC = () => {
                   labelProps={{ className: "font-accent" }}
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
                 <Button 
                   size="lg" 
@@ -267,6 +295,8 @@ const ContactPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   ✨ Send Message
                 </Button>
@@ -281,6 +311,8 @@ const ContactPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="bg-gradient-to-r from-rose-500 via-coral-500 to-gold-500 bg-clip-text text-transparent">
                   ❓ Frequently Asked Questions
@@ -291,6 +323,8 @@ const ContactPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Quick answers to common questions.
               </Typography>
@@ -325,6 +359,8 @@ const ContactPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       {faq.q}
                     </Typography>
@@ -333,6 +369,8 @@ const ContactPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       {faq.a}
                     </Typography>
@@ -361,6 +399,8 @@ const ContactPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-violet-600 to-rose-600 bg-clip-text text-transparent">
                 Visit Our Store
@@ -371,6 +411,8 @@ const ContactPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🏠 123 Wrapping Way, Portland, OR 97201
             </Typography>

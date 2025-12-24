@@ -69,6 +69,8 @@ const SignUpPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-violet-600 to-sky-600 bg-clip-text text-transparent">
                 Create Account
@@ -79,6 +81,8 @@ const SignUpPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Join Perfect Wrap for exclusive offers
             </Typography>
@@ -90,12 +94,16 @@ const SignUpPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             <CardBody 
               className="p-8"
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               {/* Google Sign Up Button */}
               <Button
@@ -107,6 +115,8 @@ const SignUpPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <svg className="w-5 h-5" viewBox="0 0 24 24">
                   <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
@@ -139,6 +149,8 @@ const SignUpPage: React.FC = () => {
                     crossOrigin=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   />
                   <Input
                     label="Last Name"
@@ -149,6 +161,8 @@ const SignUpPage: React.FC = () => {
                     crossOrigin=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   />
                 </div>
                 
@@ -162,6 +176,8 @@ const SignUpPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
 
                 <Input
@@ -174,6 +190,8 @@ const SignUpPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
 
                 <Input
@@ -186,6 +204,8 @@ const SignUpPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
 
                 <Input
@@ -198,6 +218,8 @@ const SignUpPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
 
                 {/* Password Requirements */}
@@ -207,6 +229,8 @@ const SignUpPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Password must contain:
                   </Typography>
@@ -230,6 +254,8 @@ const SignUpPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       I agree to the{' '}
                       <Link href="#" className="text-violet-600 hover:underline">Terms of Service</Link>
@@ -241,6 +267,8 @@ const SignUpPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
 
                 <Checkbox
@@ -250,6 +278,8 @@ const SignUpPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Send me exclusive offers and updates via email
                     </Typography>
@@ -259,6 +289,8 @@ const SignUpPage: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 />
 
                 <Button
@@ -269,6 +301,8 @@ const SignUpPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   {isLoading ? (
                     <span className="flex items-center justify-center gap-2">
@@ -291,6 +325,8 @@ const SignUpPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Already have an account?{' '}
                   <Link href="/signin" className="font-accent text-violet-600 hover:text-violet-700">
@@ -311,12 +347,16 @@ const SignUpPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="w-24 h-24 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mb-4 animate-bounce shadow-lg">
             <span className="text-5xl">🎉</span>
@@ -327,6 +367,8 @@ const SignUpPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Account Created!
           </Typography>
@@ -336,12 +378,16 @@ const SignUpPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Typography 
             className="font-body text-gray-600 mb-4"
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Welcome to Perfect Wrap! Your account has been successfully created.
           </Typography>
@@ -354,6 +400,8 @@ const SignUpPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Account verified
               </Typography>
@@ -365,6 +413,8 @@ const SignUpPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Welcome email sent
               </Typography>
@@ -376,6 +426,8 @@ const SignUpPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 10% off coupon added to your account!
               </Typography>
@@ -390,6 +442,8 @@ const SignUpPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Use code <span className="font-bold">WELCOME10</span> for 10% off!
               </Typography>
@@ -401,6 +455,8 @@ const SignUpPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Link href="/shop" className="w-full">
             <Button 
@@ -409,6 +465,8 @@ const SignUpPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🛍️ Start Shopping
             </Button>
@@ -421,6 +479,8 @@ const SignUpPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🏠 Go to Homepage
             </Button>

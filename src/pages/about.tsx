@@ -51,6 +51,8 @@ const AboutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Crafting Joy,{' '}
             <span className="bg-gradient-to-r from-rose-300 via-gold-300 to-coral-300 bg-clip-text text-transparent">
@@ -63,6 +65,8 @@ const AboutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ✨ Since 2010, Perfect Wrap has been dedicated to transforming the art of gift-giving 
             through exquisite packaging that speaks before the gift is even opened.
@@ -112,6 +116,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 📖 Our Story
               </Typography>
@@ -121,6 +127,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="bg-gradient-to-r from-rose-500 via-violet-500 to-sky-500 bg-clip-text text-transparent">
                   Born from a Love of Beautiful Details
@@ -161,6 +169,8 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-violet-600 via-rose-500 to-coral-500 bg-clip-text text-transparent">
                 What We Stand For
@@ -171,6 +181,8 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               💫 Our values guide everything we do, from sourcing to shipping.
             </Typography>
@@ -182,12 +194,16 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <CardBody 
                 className="p-10"
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="text-6xl mb-6 block">🌿</span>
                 <Typography 
@@ -196,6 +212,8 @@ const AboutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Sustainability First
                 </Typography>
@@ -204,6 +222,8 @@ const AboutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   We are committed to eco-friendly practices. 80% of our products use recycled or sustainable materials.
                 </Typography>
@@ -215,12 +235,16 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <CardBody 
                 className="p-10"
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="text-6xl mb-6 block">✨</span>
                 <Typography 
@@ -229,6 +253,8 @@ const AboutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Uncompromising Quality
                 </Typography>
@@ -237,6 +263,8 @@ const AboutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Every product is carefully inspected to meet our exacting standards. Beautiful and durable.
                 </Typography>
@@ -248,12 +276,16 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <CardBody 
                 className="p-10"
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="text-6xl mb-6 block">💝</span>
                 <Typography 
@@ -262,6 +294,8 @@ const AboutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Joy in Every Detail
                 </Typography>
@@ -270,6 +304,8 @@ const AboutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   From the texture of our papers to the sheen of our ribbons, we obsess over the details.
                 </Typography>
@@ -297,6 +333,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 15K+
               </Typography>
@@ -305,6 +343,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Happy Customers
               </Typography>
@@ -317,6 +357,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 50K+
               </Typography>
@@ -325,6 +367,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Gifts Wrapped
               </Typography>
@@ -337,6 +381,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 200+
               </Typography>
@@ -345,6 +391,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Products
               </Typography>
@@ -357,6 +405,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 14
               </Typography>
@@ -365,6 +415,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Years of Excellence
               </Typography>
@@ -387,6 +439,8 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-rose-500 via-violet-500 to-sky-500 bg-clip-text text-transparent">
                 Meet Our Team
@@ -397,6 +451,8 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               👥 The passionate people behind Perfect Wrap.
             </Typography>
@@ -418,6 +474,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Emma Richardson
               </Typography>
@@ -426,6 +484,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Founder &amp; CEO
               </Typography>
@@ -445,6 +505,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 James Chen
               </Typography>
@@ -453,6 +515,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Head of Design
               </Typography>
@@ -472,6 +536,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Sarah Williams
               </Typography>
@@ -480,6 +546,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Operations Director
               </Typography>
@@ -499,6 +567,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Michael Brooks
               </Typography>
@@ -507,6 +577,8 @@ const AboutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Sustainability Lead
               </Typography>
@@ -530,6 +602,8 @@ const AboutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ✨ Ready to Transform Your Gifts?
           </Typography>
@@ -538,6 +612,8 @@ const AboutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Join thousands of gift-givers who have discovered the Perfect Wrap difference.
           </Typography>
@@ -548,6 +624,8 @@ const AboutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🎁 Shop Now
             </Button>

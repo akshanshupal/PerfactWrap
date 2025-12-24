@@ -44,6 +44,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="text-gray-800">Where Every Gift</span>
                 <span className="block bg-gradient-to-r from-rose-500 via-violet-500 to-sky-500 bg-clip-text text-transparent animate-gradient bg-gradient-animated">
@@ -56,6 +58,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Discover our exquisite collection of premium gift packaging. 
                 From luxurious boxes to artisan wrapping papers, transform every present into a masterpiece.
@@ -69,6 +73,8 @@ const HomePage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     🎁 Shop Collection
                   </Button>
@@ -81,6 +87,8 @@ const HomePage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Our Story
                   </Button>
@@ -95,6 +103,8 @@ const HomePage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     15K+
                   </Typography>
@@ -107,6 +117,8 @@ const HomePage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     4.9★
                   </Typography>
@@ -119,6 +131,8 @@ const HomePage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     100%
                   </Typography>
@@ -183,6 +197,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-violet-600 via-rose-500 to-coral-500 bg-clip-text text-transparent">
                 Shop by Category
@@ -193,6 +209,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Find the perfect packaging for every occasion
             </Typography>
@@ -207,6 +225,8 @@ const HomePage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <div className="relative aspect-square overflow-hidden">
                     <Image
@@ -223,6 +243,8 @@ const HomePage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {category.name}
                       </Typography>
@@ -254,6 +276,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <span className="bg-gradient-to-r from-rose-500 to-violet-500 bg-clip-text text-transparent">
                   Featured Collection
@@ -264,6 +288,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 ✨ Handpicked favorites from our latest arrivals
               </Typography>
@@ -275,6 +301,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 View All Products
                 <span className="ml-2 group-hover:translate-x-1 transition-transform inline-block">→</span>
@@ -325,6 +353,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 The Art of
                 <span className="block bg-gradient-to-r from-rose-300 via-gold-300 to-coral-300 bg-clip-text text-transparent">
@@ -336,6 +366,8 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 At Perfect Wrap, we believe presentation is just as important as the gift itself. 
                 Our premium materials and timeless designs ensure your presents make a lasting impression 
@@ -348,6 +380,8 @@ const HomePage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   ✨ Discover Our Story
                 </Button>
@@ -368,12 +402,16 @@ const HomePage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <CardBody 
                     className="text-center p-6"
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     <span className="text-4xl mb-3 block animate-bounce-gentle">{feature.icon}</span>
                     <Typography 
@@ -382,6 +420,8 @@ const HomePage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       {feature.title}
                     </Typography>
@@ -390,6 +430,8 @@ const HomePage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       {feature.desc}
                     </Typography>
@@ -416,6 +458,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-sky-500 via-violet-500 to-rose-500 bg-clip-text text-transparent">
                 Customer Favorites
@@ -426,6 +470,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               💖 Our most loved products, chosen by gift-givers like you
             </Typography>
@@ -460,6 +506,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-rose-500 to-violet-500 bg-clip-text text-transparent">
                 What Our Customers Say
@@ -498,12 +546,16 @@ const HomePage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <CardBody 
                   className="p-8"
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <div className="flex gap-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
@@ -515,6 +567,8 @@ const HomePage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     &quot;{testimonial.quote}&quot;
                   </Typography>
@@ -529,6 +583,8 @@ const HomePage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {testimonial.author}
                       </Typography>
@@ -537,6 +593,8 @@ const HomePage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {testimonial.role}
                       </Typography>
@@ -559,6 +617,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-rose-500 via-coral-500 to-gold-500 bg-clip-text text-transparent">
                 #PerfectWrapMoments
@@ -569,6 +629,8 @@ const HomePage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               📸 Follow us on Instagram for inspiration and share your beautiful wraps
             </Typography>

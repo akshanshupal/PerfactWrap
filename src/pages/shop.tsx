@@ -104,6 +104,8 @@ const ShopPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Shop Our{' '}
             <span className="bg-gradient-to-r from-rose-300 via-gold-300 to-coral-300 bg-clip-text text-transparent">
@@ -116,6 +118,8 @@ const ShopPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ✨ Explore our curated selection of premium gift packaging, designed to make every present unforgettable.
           </Typography>
@@ -141,26 +145,27 @@ const ShopPage: React.FC = () => {
       <section className="py-8 bg-gradient-to-r from-rose-50 via-violet-50 to-sky-50 border-b border-rose-100">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="flex flex-wrap items-center gap-3 justify-center">
-            <Chip
-              value="✨ All Products"
-              onClick={() => setSelectedCategory('all')}
-              className={`cursor-pointer font-accent tracking-wide transition-all duration-300 hover:scale-105 ${
-                selectedCategory === 'all' 
-                  ? 'bg-gradient-to-r from-rose-500 to-coral-500 text-white shadow-lg shadow-rose-500/30' 
-                  : 'bg-white text-gray-700 border border-rose-200 hover:border-rose-400 hover:shadow-md'
-              }`}
-            />
-            {categories.map((category) => (
+            <div onClick={() => setSelectedCategory('all')}>
               <Chip
-                key={category.slug}
-                value={category.name}
-                onClick={() => setSelectedCategory(category.slug)}
+                value="✨ All Products"
                 className={`cursor-pointer font-accent tracking-wide transition-all duration-300 hover:scale-105 ${
-                  selectedCategory === category.slug 
-                    ? 'bg-gradient-to-r from-violet-500 to-sky-500 text-white shadow-lg shadow-violet-500/30' 
-                    : 'bg-white text-gray-700 border border-violet-200 hover:border-violet-400 hover:shadow-md'
+                  selectedCategory === 'all' 
+                    ? 'bg-gradient-to-r from-rose-500 to-coral-500 text-white shadow-lg shadow-rose-500/30' 
+                    : 'bg-white text-gray-700 border border-rose-200 hover:border-rose-400 hover:shadow-md'
                 }`}
               />
+            </div>
+            {categories.map((category) => (
+              <div key={category.slug} onClick={() => setSelectedCategory(category.slug)}>
+                <Chip
+                  value={category.name}
+                  className={`cursor-pointer font-accent tracking-wide transition-all duration-300 hover:scale-105 ${
+                    selectedCategory === category.slug 
+                      ? 'bg-gradient-to-r from-violet-500 to-sky-500 text-white shadow-lg shadow-violet-500/30' 
+                      : 'bg-white text-gray-700 border border-violet-200 hover:border-violet-400 hover:shadow-md'
+                  }`}
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -180,6 +185,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     🎯 Filters
                   </Typography>
@@ -194,6 +201,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Clear All
                   </Button>
@@ -204,6 +213,8 @@ const ShopPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <AccordionHeader 
                     onClick={() => handleOpenAccordion(1)}
@@ -211,6 +222,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     📁 Categories
                   </AccordionHeader>
@@ -234,6 +247,8 @@ const ShopPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                       ))}
                     </div>
@@ -245,6 +260,8 @@ const ShopPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <AccordionHeader 
                     onClick={() => handleOpenAccordion(2)}
@@ -252,6 +269,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     💰 Price Range
                   </AccordionHeader>
@@ -267,6 +286,8 @@ const ShopPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                         <Input
                           type="number"
@@ -277,6 +298,8 @@ const ShopPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                       </div>
                       <div className="flex gap-2 flex-wrap">
@@ -286,12 +309,12 @@ const ShopPage: React.FC = () => {
                           { label: '$25 - $40', range: [25, 40] },
                           { label: '$40+', range: [40, 100] },
                         ].map((option) => (
-                          <Chip
-                            key={option.label}
-                            value={option.label}
-                            onClick={() => setPriceRange(option.range as [number, number])}
-                            className="cursor-pointer text-xs bg-violet-50 text-violet-700 border border-violet-200 hover:bg-violet-100 transition-colors"
-                          />
+                          <div key={option.label} onClick={() => setPriceRange(option.range as [number, number])}>
+                            <Chip
+                              value={option.label}
+                              className="cursor-pointer text-xs bg-violet-50 text-violet-700 border border-violet-200 hover:bg-violet-100 transition-colors"
+                            />
+                          </div>
                         ))}
                       </div>
                     </div>
@@ -303,6 +326,8 @@ const ShopPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <AccordionHeader 
                     onClick={() => handleOpenAccordion(3)}
@@ -310,6 +335,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     ✅ Availability
                   </AccordionHeader>
@@ -323,6 +350,8 @@ const ShopPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       <Checkbox
                         label={<span className="font-body text-gray-700">Include Pre-Order</span>}
@@ -331,6 +360,8 @@ const ShopPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                     </div>
                   </AccordionBody>
@@ -351,6 +382,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 mr-2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
@@ -362,6 +395,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Showing <span className="font-semibold bg-gradient-to-r from-rose-500 to-violet-500 bg-clip-text text-transparent">{filteredProducts.length}</span> products
                   </Typography>
@@ -376,6 +411,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     <Option value="featured">✨ Featured</Option>
                     <Option value="newest">🆕 Newest</Option>
@@ -408,6 +445,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     No products found
                   </Typography>
@@ -416,6 +455,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Try adjusting your filters to find what you are looking for.
                   </Typography>
@@ -428,6 +469,8 @@ const ShopPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     ✨ Clear Filters
                   </Button>

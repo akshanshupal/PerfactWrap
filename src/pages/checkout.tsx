@@ -202,6 +202,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <Step 
                 onClick={() => setActiveStep(0)}
@@ -209,6 +211,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 1
               </Step>
@@ -218,6 +222,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 2
               </Step>
@@ -243,12 +249,16 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <CardBody 
                     className="p-8"
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     <Typography 
                       variant="h4" 
@@ -256,6 +266,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       <span className="bg-gradient-to-r from-violet-600 to-sky-600 bg-clip-text text-transparent">
                         📦 Shipping Information
@@ -271,6 +283,8 @@ const CheckoutPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                         <Input
                           label="Last Name"
@@ -279,6 +293,8 @@ const CheckoutPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                       </div>
                       <Input
@@ -289,6 +305,8 @@ const CheckoutPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       <Input
                         type="tel"
@@ -298,6 +316,8 @@ const CheckoutPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       <Input
                         label="Address"
@@ -306,6 +326,8 @@ const CheckoutPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       <Input
                         label="Apartment, suite, etc. (optional)"
@@ -314,6 +336,8 @@ const CheckoutPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       <div className="grid md:grid-cols-3 gap-6">
                         <Input
@@ -323,6 +347,8 @@ const CheckoutPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                         <Input
                           label="State"
@@ -331,6 +357,8 @@ const CheckoutPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                         <Input
                           label="ZIP Code"
@@ -339,6 +367,8 @@ const CheckoutPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                       </div>
 
@@ -349,6 +379,8 @@ const CheckoutPage: React.FC = () => {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           🚚 Shipping Method
                         </Typography>
@@ -375,6 +407,8 @@ const CheckoutPage: React.FC = () => {
                                   crossOrigin=""
                                   onPointerEnterCapture={() => {}}
                                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                                 />
                                 <div>
                                   <Typography 
@@ -382,6 +416,8 @@ const CheckoutPage: React.FC = () => {
                                     placeholder=""
                                     onPointerEnterCapture={() => {}}
                                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                                   >
                                     {method.label}
                                   </Typography>
@@ -390,6 +426,8 @@ const CheckoutPage: React.FC = () => {
                                     placeholder=""
                                     onPointerEnterCapture={() => {}}
                                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                                   >
                                     {method.time}
                                   </Typography>
@@ -400,6 +438,8 @@ const CheckoutPage: React.FC = () => {
                                 placeholder=""
                                 onPointerEnterCapture={() => {}}
                                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                               >
                                 {method.price}
                               </Typography>
@@ -417,6 +457,8 @@ const CheckoutPage: React.FC = () => {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           ← Back to Cart
                         </Button>
@@ -427,6 +469,8 @@ const CheckoutPage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         Review Order →
                       </Button>
@@ -442,12 +486,16 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <CardBody 
                     className="p-8"
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     <Typography 
                       variant="h4" 
@@ -455,6 +503,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       <span className="bg-gradient-to-r from-violet-600 to-sky-600 bg-clip-text text-transparent">
                         📋 Review Your Order
@@ -471,6 +521,8 @@ const CheckoutPage: React.FC = () => {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             📍 Shipping Address
                           </Typography>
@@ -482,6 +534,8 @@ const CheckoutPage: React.FC = () => {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             Edit
                           </Button>
@@ -491,6 +545,8 @@ const CheckoutPage: React.FC = () => {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           {customerDetails.firstName} {customerDetails.lastName}<br />
                           {customerDetails.address}<br />
@@ -510,6 +566,8 @@ const CheckoutPage: React.FC = () => {
                               placeholder=""
                               onPointerEnterCapture={() => {}}
                               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                             >
                               Payment Method
                             </Typography>
@@ -518,6 +576,8 @@ const CheckoutPage: React.FC = () => {
                               placeholder=""
                               onPointerEnterCapture={() => {}}
                               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                             >
                               You&apos;ll choose your payment method after clicking &quot;Place Order&quot;
                             </Typography>
@@ -533,6 +593,8 @@ const CheckoutPage: React.FC = () => {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           🛒 Order Items
                         </Typography>
@@ -553,6 +615,8 @@ const CheckoutPage: React.FC = () => {
                                   placeholder=""
                                   onPointerEnterCapture={() => {}}
                                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                                 >
                                   {item.product.name}
                                 </Typography>
@@ -561,6 +625,8 @@ const CheckoutPage: React.FC = () => {
                                   placeholder=""
                                   onPointerEnterCapture={() => {}}
                                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                                 >
                                   Qty: {item.quantity} | {item.color} | {item.size}
                                 </Typography>
@@ -570,6 +636,8 @@ const CheckoutPage: React.FC = () => {
                                 placeholder=""
                                 onPointerEnterCapture={() => {}}
                                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                               >
                                 ${(item.product.price * item.quantity).toFixed(2)}
                               </Typography>
@@ -587,6 +655,8 @@ const CheckoutPage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         ← Back
                       </Button>
@@ -597,6 +667,8 @@ const CheckoutPage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         ✨ Place Order - ${total.toFixed(2)}
                       </Button>
@@ -613,12 +685,16 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <CardBody 
                   className="p-6"
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <Typography 
                     variant="h5" 
@@ -626,6 +702,8 @@ const CheckoutPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     🧾 Order Summary
                   </Typography>
@@ -650,6 +728,8 @@ const CheckoutPage: React.FC = () => {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             {item.product.name}
                           </Typography>
@@ -658,6 +738,8 @@ const CheckoutPage: React.FC = () => {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             {item.color}
                           </Typography>
@@ -667,6 +749,8 @@ const CheckoutPage: React.FC = () => {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           ${(item.product.price * item.quantity).toFixed(2)}
                         </Typography>
@@ -698,6 +782,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Total
                     </Typography>
@@ -707,6 +793,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       ${total.toFixed(2)}
                     </Typography>
@@ -726,12 +814,16 @@ const CheckoutPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <span className="text-4xl mb-2">💳</span>
           <Typography 
@@ -740,6 +832,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Choose Payment Method
           </Typography>
@@ -748,6 +842,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Order ID: {orderId}
           </Typography>
@@ -757,6 +853,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="space-y-4">
             {/* Payment Gateway Option */}
@@ -775,6 +873,8 @@ const CheckoutPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Payment Gateway
                   </Typography>
@@ -783,6 +883,8 @@ const CheckoutPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Pay securely with Credit/Debit Card, UPI, Net Banking
                   </Typography>
@@ -820,6 +922,8 @@ const CheckoutPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Pay via WhatsApp
                   </Typography>
@@ -828,6 +932,8 @@ const CheckoutPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     Scan QR code and pay directly via WhatsApp
                   </Typography>
@@ -849,6 +955,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Total Amount: <span className="font-bold">${total.toFixed(2)}</span>
               </Typography>
@@ -860,6 +968,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Button 
             variant="text"
@@ -868,6 +978,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Cancel
           </Button>
@@ -882,12 +994,16 @@ const CheckoutPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="w-16 h-16 bg-gradient-to-r from-violet-600 to-sky-600 rounded-full flex items-center justify-center mb-3">
             <span className="text-3xl">💳</span>
@@ -898,6 +1014,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Enter Card Details
           </Typography>
@@ -906,6 +1024,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Order ID: {orderId}
           </Typography>
@@ -915,6 +1035,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <form className="space-y-5">
             <Input
@@ -925,6 +1047,8 @@ const CheckoutPage: React.FC = () => {
               crossOrigin=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             />
             <Input
               label="Cardholder Name"
@@ -933,6 +1057,8 @@ const CheckoutPage: React.FC = () => {
               crossOrigin=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             />
             <div className="grid grid-cols-2 gap-4">
               <Input
@@ -942,6 +1068,8 @@ const CheckoutPage: React.FC = () => {
                 crossOrigin=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               />
               <Input
                 label="CVV"
@@ -952,6 +1080,8 @@ const CheckoutPage: React.FC = () => {
                 crossOrigin=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               />
             </div>
 
@@ -962,6 +1092,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Save card for future purchases
                 </Typography>
@@ -970,6 +1102,8 @@ const CheckoutPage: React.FC = () => {
               crossOrigin=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             />
 
             <div className="flex items-center gap-3 p-3 bg-violet-50 rounded-lg border border-violet-100">
@@ -979,6 +1113,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Your payment is secured with 256-bit SSL encryption.
               </Typography>
@@ -992,6 +1128,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Amount to Pay:
               </Typography>
@@ -1001,6 +1139,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 ${total.toFixed(2)}
               </Typography>
@@ -1012,6 +1152,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Button 
             fullWidth
@@ -1021,6 +1163,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             {isProcessing ? (
               <span className="flex items-center justify-center gap-2">
@@ -1046,6 +1190,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ← Choose different payment method
           </Button>
@@ -1061,6 +1207,8 @@ const CheckoutPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         {/* Header */}
         <DialogHeader 
@@ -1068,6 +1216,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="flex items-center gap-3">
             <div className="relative">
@@ -1092,6 +1242,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Scan to Pay via WhatsApp
               </Typography>
@@ -1100,6 +1252,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Order ID: {orderId}
               </Typography>
@@ -1111,6 +1265,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               ${total.toFixed(2)}
             </Typography>
@@ -1123,6 +1279,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="flex gap-6">
             {/* Left Side - QR Code */}
@@ -1140,6 +1298,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Scan with phone camera
                 </Typography>
@@ -1154,6 +1314,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <span className="text-lg">📱</span> How to pay:
                 </Typography>
@@ -1165,6 +1327,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Scan the QR code with your phone camera
                     </Typography>
@@ -1176,6 +1340,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Complete the payment via WhatsApp
                     </Typography>
@@ -1187,6 +1353,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Take a screenshot of payment confirmation
                     </Typography>
@@ -1198,6 +1366,8 @@ const CheckoutPage: React.FC = () => {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Click &quot;Payment Done&quot; &amp; upload screenshot
                     </Typography>
@@ -1213,6 +1383,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Keep your payment screenshot ready for verification
                 </Typography>
@@ -1227,6 +1399,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Button 
             variant="outlined"
@@ -1238,6 +1412,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ← Back
           </Button>
@@ -1247,6 +1423,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ✅ Payment Done - Upload Screenshot
           </Button>
@@ -1261,12 +1439,16 @@ const CheckoutPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="w-20 h-20 bg-gradient-to-r from-violet-500 to-sky-500 rounded-full flex items-center justify-center mb-4 shadow-lg">
             <span className="text-4xl">📸</span>
@@ -1277,6 +1459,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Upload Payment Proof
           </Typography>
@@ -1285,6 +1469,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Please upload a screenshot of your payment confirmation
           </Typography>
@@ -1294,6 +1480,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           {/* Hidden file input */}
           <input
@@ -1329,6 +1517,8 @@ const CheckoutPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     {screenshotFileName}
                   </Typography>
@@ -1338,6 +1528,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Click to change image
                 </Typography>
@@ -1352,6 +1544,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Click to upload screenshot
                 </Typography>
@@ -1360,6 +1554,8 @@ const CheckoutPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Supports: JPG, PNG, WEBP (Max 5MB)
                 </Typography>
@@ -1374,6 +1570,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Order Summary
             </Typography>
@@ -1398,6 +1596,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Your order details, shipping info, and payment proof will be saved securely. You&apos;ll receive a confirmation via WhatsApp and email.
               </Typography>
@@ -1409,6 +1609,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Button 
             fullWidth
@@ -1418,6 +1620,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             {isProcessing ? (
               <span className="flex items-center justify-center gap-2">
@@ -1445,6 +1649,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ← Back to QR Code
           </Button>
@@ -1459,12 +1665,16 @@ const CheckoutPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="w-20 h-20 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mb-4 animate-bounce shadow-lg">
             <span className="text-4xl">✅</span>
@@ -1475,6 +1685,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Order Confirmed!
           </Typography>
@@ -1484,6 +1696,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="bg-gradient-to-r from-violet-50 to-sky-50 rounded-xl p-6 mb-6">
             <Typography 
@@ -1491,6 +1705,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Your Order ID
             </Typography>
@@ -1500,6 +1716,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               {orderId}
             </Typography>
@@ -1508,6 +1726,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Save this ID to track your order
             </Typography>
@@ -1518,6 +1738,8 @@ const CheckoutPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             🎉 Thank you for your order! We&apos;ve sent a confirmation message with your order details via WhatsApp.
           </Typography>
@@ -1530,6 +1752,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Order saved successfully
               </Typography>
@@ -1541,6 +1765,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Payment proof uploaded
               </Typography>
@@ -1552,6 +1778,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Confirmation sent to {customerDetails.email}
               </Typography>
@@ -1563,6 +1791,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 WhatsApp notification sent to {customerDetails.phone}
               </Typography>
@@ -1574,6 +1804,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Estimated delivery: {shippingMethod === 'nextday' ? 'Tomorrow' : shippingMethod === 'express' ? '2-3 business days' : '5-7 business days'}
               </Typography>
@@ -1589,6 +1821,8 @@ const CheckoutPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Track Your Order
               </Typography>
@@ -1598,6 +1832,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Use your Order ID <span className="font-accent text-violet-700">{orderId}</span> to track your order status anytime.
             </Typography>
@@ -1608,6 +1844,8 @@ const CheckoutPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Link href="/track-order" className="w-full">
             <Button 
@@ -1616,6 +1854,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               📦 Track Your Order
             </Button>
@@ -1628,6 +1868,8 @@ const CheckoutPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🛍️ Continue Shopping
             </Button>

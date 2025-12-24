@@ -1,0 +1,23 @@
+{
+  "components/Layout.tsx -> ./Footer": {
+    "id": 6311,
+    "files": [
+      "static/chunks/664-d254d21a6fe56bff.js",
+      "static/chunks/311.92aee71995227670.js"
+    ]
+  },
+  "components/Layout.tsx -> ./Header": {
+    "id": 8732,
+    "files": [
+      "static/chunks/664-d254d21a6fe56bff.js",
+      "static/chunks/732.88ae9f7a96870b58.js"
+    ]
+  },
+  "pages/_app.tsx -> @material-tailwind/react": {
+    "id": 9335,
+    "files": [
+      "static/chunks/bd1a647f-fb0886d3159d927c.js",
+      "static/chunks/556-7dae7bc9a1cb45fb.js"
+    ]
+  }
+}

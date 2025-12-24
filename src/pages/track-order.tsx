@@ -139,6 +139,8 @@ export default function TrackOrderPage() {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Track Your Order
             </Typography>
@@ -147,6 +149,8 @@ export default function TrackOrderPage() {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Enter your order ID to see real-time updates on your perfect packaging
             </Typography>
@@ -162,12 +166,16 @@ export default function TrackOrderPage() {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             <CardBody
               className="p-8"
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <div className="flex flex-col md:flex-row gap-4">
                 <div className="flex-1">
@@ -182,6 +190,8 @@ export default function TrackOrderPage() {
                     crossOrigin=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   />
                 </div>
                 <Button
@@ -191,6 +201,8 @@ export default function TrackOrderPage() {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   {isSearching ? (
                     <span className="flex items-center gap-2">
@@ -214,6 +226,8 @@ export default function TrackOrderPage() {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     {error}
                   </Typography>
@@ -226,6 +240,8 @@ export default function TrackOrderPage() {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   💡 Try demo order ID: <span className="font-mono bg-gray-100 px-2 py-1 rounded text-violet-600">PW-DEMO123-ABCD</span>
                 </Typography>
@@ -246,6 +262,8 @@ export default function TrackOrderPage() {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <div className={`${statusColors[order.status]} p-6 text-white`}>
                   <div className="flex items-center justify-between flex-wrap gap-4">
@@ -255,6 +273,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         Order Status
                       </Typography>
@@ -264,6 +284,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {statusLabels[order.status]}
                       </Typography>
@@ -274,6 +296,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         Order ID
                       </Typography>
@@ -283,6 +307,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {order.id}
                       </Typography>
@@ -295,6 +321,8 @@ export default function TrackOrderPage() {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   {/* Timeline */}
                   <div className="mb-8">
@@ -304,6 +332,8 @@ export default function TrackOrderPage() {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       <span>📍</span> Order Timeline
                     </Typography>
@@ -331,6 +361,8 @@ export default function TrackOrderPage() {
                               placeholder=""
                               onPointerEnterCapture={() => {}}
                               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                             >
                               {item.status}
                             </Typography>
@@ -339,6 +371,8 @@ export default function TrackOrderPage() {
                               placeholder=""
                               onPointerEnterCapture={() => {}}
                               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                             >
                               {item.date}
                             </Typography>
@@ -356,6 +390,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         <span>🚚</span> Shipping Information
                       </Typography>
@@ -366,6 +402,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             Carrier
                           </Typography>
@@ -374,6 +412,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             {order.tracking.carrier}
                           </Typography>
@@ -384,6 +424,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             Tracking Number
                           </Typography>
@@ -392,6 +434,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             {order.tracking.number}
                           </Typography>
@@ -402,6 +446,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             Estimated Delivery
                           </Typography>
@@ -410,6 +456,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             {order.tracking.estimatedDelivery}
                           </Typography>
@@ -427,6 +475,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         <span>🎁</span> Order Items
                       </Typography>
@@ -439,6 +489,8 @@ export default function TrackOrderPage() {
                                 placeholder=""
                                 onPointerEnterCapture={() => {}}
                                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                               >
                                 {item.name}
                               </Typography>
@@ -447,6 +499,8 @@ export default function TrackOrderPage() {
                                 placeholder=""
                                 onPointerEnterCapture={() => {}}
                                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                               >
                                 Qty: {item.quantity}
                               </Typography>
@@ -456,6 +510,8 @@ export default function TrackOrderPage() {
                               placeholder=""
                               onPointerEnterCapture={() => {}}
                               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                             >
                               ${(item.price * item.quantity).toFixed(2)}
                             </Typography>
@@ -467,6 +523,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             Total
                           </Typography>
@@ -476,6 +534,8 @@ export default function TrackOrderPage() {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             ${order.total.toFixed(2)}
                           </Typography>
@@ -490,6 +550,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         <span>📬</span> Shipping Address
                       </Typography>
@@ -499,6 +561,8 @@ export default function TrackOrderPage() {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           {order.shipping.name}
                         </Typography>
@@ -507,6 +571,8 @@ export default function TrackOrderPage() {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           {order.shipping.address}
                         </Typography>
@@ -515,6 +581,8 @@ export default function TrackOrderPage() {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           {order.shipping.city}, {order.shipping.state} {order.shipping.zip}
                         </Typography>
@@ -530,12 +598,16 @@ export default function TrackOrderPage() {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 <CardBody
                   className="p-6"
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <div className="flex flex-col md:flex-row items-center gap-4">
                     <span className="text-4xl">💬</span>
@@ -546,6 +618,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         Need Help with Your Order?
                       </Typography>
@@ -554,6 +628,8 @@ export default function TrackOrderPage() {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         Our support team is here to assist you with any questions
                       </Typography>
@@ -563,6 +639,8 @@ export default function TrackOrderPage() {
                       placeholder=""
                       onPointerEnterCapture={() => {}}
                       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                     >
                       Contact Support
                     </Button>
@@ -584,6 +662,8 @@ export default function TrackOrderPage() {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Frequently Asked Questions
             </Typography>
@@ -617,12 +697,16 @@ export default function TrackOrderPage() {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <CardBody
                     className="p-6"
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     <div className="flex gap-4">
                       <span className="text-3xl">{faq.icon}</span>
@@ -633,6 +717,8 @@ export default function TrackOrderPage() {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           {faq.q}
                         </Typography>
@@ -641,6 +727,8 @@ export default function TrackOrderPage() {
                           placeholder=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         >
                           {faq.a}
                         </Typography>

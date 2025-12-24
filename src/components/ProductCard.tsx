@@ -22,6 +22,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       placeholder=""
       onPointerEnterCapture={() => {}}
       onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
     >
       <CardHeader 
         floated={false} 
@@ -30,6 +32,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <Link href={`/product/${product.slug}`}>
           <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-rose-50 to-violet-50">
@@ -84,6 +88,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             🛒 Quick Add
           </Button>
@@ -95,6 +101,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <Typography 
           variant="small" 
@@ -102,6 +110,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           {product.category}
         </Typography>
@@ -112,6 +122,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             {product.name}
           </Typography>
@@ -121,6 +133,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           {product.shortDescription}
         </Typography>
@@ -132,6 +146,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               ${product.price.toFixed(2)}
             </Typography>
@@ -141,6 +157,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 ${product.originalPrice.toFixed(2)}
               </Typography>

@@ -135,6 +135,8 @@ const SignInPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               <span className="bg-gradient-to-r from-violet-600 to-sky-600 bg-clip-text text-transparent">
                 Welcome Back
@@ -145,6 +147,8 @@ const SignInPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               Sign in to continue to Perfect Wrap
             </Typography>
@@ -156,12 +160,16 @@ const SignInPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             <CardBody 
               className="p-8"
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               {/* Google Sign In Button */}
               <Button
@@ -173,6 +181,8 @@ const SignInPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 {isLoading && activeTab === 'google' ? (
                   <svg className="animate-spin h-5 w-5 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -207,6 +217,8 @@ const SignInPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   <Tab 
                     value="email" 
@@ -215,6 +227,8 @@ const SignInPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     📧 Email
                   </Tab>
@@ -225,6 +239,8 @@ const SignInPage: React.FC = () => {
                     placeholder=""
                     onPointerEnterCapture={() => {}}
                     onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                   >
                     📱 Phone
                   </Tab>
@@ -233,6 +249,8 @@ const SignInPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   {/* Email Tab */}
                   <TabPanel value="email" className="p-0 pt-6">
@@ -246,6 +264,8 @@ const SignInPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       <Input
                         type="password"
@@ -256,6 +276,8 @@ const SignInPage: React.FC = () => {
                         crossOrigin=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       />
                       
                       <div className="flex items-center justify-between">
@@ -266,6 +288,8 @@ const SignInPage: React.FC = () => {
                               placeholder=""
                               onPointerEnterCapture={() => {}}
                               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                             >
                               Remember me
                             </Typography>
@@ -274,6 +298,8 @@ const SignInPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                         <Link href="#" className="font-accent text-sm text-violet-600 hover:text-violet-700">
                           Forgot password?
@@ -288,6 +314,8 @@ const SignInPage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {isLoading ? (
                           <span className="flex items-center justify-center gap-2">
@@ -319,6 +347,8 @@ const SignInPage: React.FC = () => {
                           crossOrigin=""
                           onPointerEnterCapture={() => {}}
                           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                         />
                       </div>
 
@@ -330,6 +360,8 @@ const SignInPage: React.FC = () => {
                             placeholder=""
                             onPointerEnterCapture={() => {}}
                             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                           >
                             We&apos;ll send a 6-digit OTP to your phone number for verification.
                           </Typography>
@@ -344,6 +376,8 @@ const SignInPage: React.FC = () => {
                         placeholder=""
                         onPointerEnterCapture={() => {}}
                         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                       >
                         {isLoading ? (
                           <span className="flex items-center justify-center gap-2">
@@ -369,6 +403,8 @@ const SignInPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   Don&apos;t have an account?{' '}
                   <Link href="/signup" className="font-accent text-violet-600 hover:text-violet-700">
@@ -386,6 +422,8 @@ const SignInPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               By signing in, you agree to our{' '}
               <Link href="#" className="text-violet-600 hover:underline">Terms of Service</Link>
@@ -404,12 +442,16 @@ const SignInPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="w-20 h-20 bg-gradient-to-r from-violet-500 to-sky-500 rounded-full flex items-center justify-center mb-4 shadow-lg">
             <span className="text-4xl">📱</span>
@@ -420,6 +462,8 @@ const SignInPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Verify OTP
           </Typography>
@@ -428,6 +472,8 @@ const SignInPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             We&apos;ve sent a 6-digit code to<br />
             <span className="font-accent text-violet-600">{phoneNumber}</span>
@@ -438,6 +484,8 @@ const SignInPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           {/* OTP Input Boxes */}
           <div className="flex justify-center gap-3 mb-6">
@@ -468,6 +516,8 @@ const SignInPage: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Resend OTP in <span className="font-accent text-violet-600">{countdown}s</span>
               </Typography>
@@ -486,6 +536,8 @@ const SignInPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Button 
             fullWidth
@@ -495,6 +547,8 @@ const SignInPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             {isLoading ? (
               <span className="flex items-center justify-center gap-2">
@@ -520,6 +574,8 @@ const SignInPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             ← Change phone number
           </Button>
@@ -534,12 +590,16 @@ const SignInPage: React.FC = () => {
         placeholder=""
         onPointerEnterCapture={() => {}}
         onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
       >
         <DialogHeader 
           className="flex flex-col items-center pt-8"
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <div className="w-24 h-24 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mb-4 animate-bounce shadow-lg">
             <span className="text-5xl">✅</span>
@@ -550,6 +610,8 @@ const SignInPage: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             Welcome!
           </Typography>
@@ -559,12 +621,16 @@ const SignInPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Typography 
             className="font-body text-gray-600 mb-4"
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
           >
             🎉 You have successfully signed in to your Perfect Wrap account!
           </Typography>
@@ -580,6 +646,8 @@ const SignInPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   John Doe
                 </Typography>
@@ -588,6 +656,8 @@ const SignInPage: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
                 >
                   john.doe@example.com
                 </Typography>
@@ -600,6 +670,8 @@ const SignInPage: React.FC = () => {
           placeholder=""
           onPointerEnterCapture={() => {}}
           onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
         >
           <Link href="/shop" className="w-full">
             <Button 
@@ -608,6 +680,8 @@ const SignInPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🛍️ Start Shopping
             </Button>
@@ -620,6 +694,8 @@ const SignInPage: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
             >
               🏠 Go to Homepage
             </Button>

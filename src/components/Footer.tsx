@@ -22,6 +22,8 @@ const Footer: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 ✨ Join Our Wrapping Circle
               </Typography>
@@ -30,6 +32,8 @@ const Footer: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Get exclusive offers, styling tips, and early access to new collections.
               </Typography>
@@ -46,6 +50,8 @@ const Footer: React.FC = () => {
                   crossOrigin=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                  onResize={() => {}}
+                  onResizeCapture={() => {}}
                 />
                 <Button
                   size="sm"
@@ -53,6 +59,8 @@ const Footer: React.FC = () => {
                   placeholder=""
                   onPointerEnterCapture={() => {}}
                   onPointerLeaveCapture={() => {}}
+                  onResize={() => {}}
+                  onResizeCapture={() => {}}
                 >
                   Subscribe
                 </Button>
@@ -74,6 +82,8 @@ const Footer: React.FC = () => {
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Perfect Wrap
               </Typography>
@@ -86,6 +96,8 @@ const Footer: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
             >
               Crafting memorable moments through beautiful packaging since 2010. Every wrap tells a story. 🎁
             </Typography>
@@ -110,6 +122,8 @@ const Footer: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
             >
               Shop
             </Typography>
@@ -132,6 +146,8 @@ const Footer: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
             >
               Company
             </Typography>
@@ -160,6 +176,8 @@ const Footer: React.FC = () => {
               placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
             >
               Support
             </Typography>
@@ -188,6 +206,8 @@ const Footer: React.FC = () => {
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
+            onResize={() => {}}
+            onResizeCapture={() => {}}
           >
             © 2024 Perfect Wrap. Made with 💖 for gift lovers everywhere.
           </Typography>
